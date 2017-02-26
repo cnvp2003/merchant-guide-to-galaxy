@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0m[32mConversionUtilsSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mcalculateUnits[0m[0m
+[0m[[0minfo[0m] [0m[31m- should return empty list *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.util.NoSuchElementException: key not found: pish[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.MapLike$class.default(MapLike.scala:228)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.AbstractMap.default(Map.scala:59)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.mutable.HashMap.apply(HashMap.scala:65)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.com.galaxy.merchant.utils.ConversionUtils$$anonfun$2.apply(ConversionUtils.scala:50)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.com.galaxy.merchant.utils.ConversionUtils$$anonfun$2.apply(ConversionUtils.scala:50)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.List.foldLeft(List.scala:84)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.com.galaxy.merchant.utils.ConversionUtils$.galactic2arabic(ConversionUtils.scala:49)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.com.galaxy.merchant.utils.ConversionUtils$.calculateUnits(ConversionUtils.scala:29)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.com.galaxy.merchant.utils.ConversionUtilsSpec$$anonfun$1.apply$mcV$sp(ConversionUtilsSpec.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

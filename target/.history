@@ -1,0 +1,27 @@
+test
+test:clean
+test:clear
+clean
+compile
+test
+run
+last test:executeTests
+exit
+run
+test
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+run
+test
+exit
+run
+testOnly *ConversionUtilsSpec*
+exit
+test
+exit
