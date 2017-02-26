@@ -66,16 +66,6 @@ object GalanticTextParser extends RegexParsers{
 
   def roman: Parser[String] = "I" | "V" | "X" | "L" | "C" | "D" | "M"
 
-  def romanToArabic(roman: String): Int = roman match {
-    case "I" => 1
-    case "V" => 5
-    case "X" => 10
-    case "L" => 50
-    case "C" => 100
-    case "D" => 500
-    case "M" => 1000
-  }
-
   def process(input: String): String = parseAll(sentence, input) match {
     case Success(result, _) => result
     case failure: NoSuccess => {

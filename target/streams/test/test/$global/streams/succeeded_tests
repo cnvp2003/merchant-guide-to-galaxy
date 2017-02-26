@@ -1,9 +1,9 @@
 #Successful Tests
-#Sun Feb 26 17:43:54 IST 2017
-main.com.galaxy.merchant.utils.ConversionUtilsSpec=1488111234737
+#Sun Feb 26 21:06:53 IST 2017
+main.com.galaxy.merchant.utils.ConversionUtilsSpec=1488123413434
 main.com.galaxy.merchant.ConversionRulesSpec=1488007756284
 main.com.galaxy.merchant.galanticTextParserSpec=1488007756299
 main.com.galaxy.merchant.TestSpec=1488007756299
-main.com.galaxy.merchant.test.TestSpec=1488111234719
-main.com.galaxy.merchant.parser.GalanticTextParserSpec=1488111234719
-main.com.galaxy.merchant.parser.ConversionRulesSpec=1488111234719
+main.com.galaxy.merchant.test.TestSpec=1488123413421
+main.com.galaxy.merchant.parser.GalanticTextParserSpec=1488123413421
+main.com.galaxy.merchant.parser.ConversionRulesSpec=1488123413421

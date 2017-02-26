@@ -1,7 +1,5 @@
 package main.com.galaxy.merchant.utils
 
-import main.com.galaxy.merchant.parser.ConversionRules
-
 import scala.collection.mutable.Map
 import scala.util.parsing.combinator.RegexParsers
 
@@ -49,8 +47,7 @@ object ConversionUtils extends RegexParsers{
     val romans = galactics.foldLeft("") {
       (result, galactic) => result + ConversionUtils.intergalacticsToRomans(galactic)
     }
-
-    ConversionRules.toArabic(romans)
+    Conversion.romanToArabic(romans) //Not proper solution
   }
 
 }

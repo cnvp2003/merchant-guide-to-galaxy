@@ -27,3 +27,7 @@ test
 exit
 test
 exit
+test
+run
+clear
+exit
